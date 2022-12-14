@@ -1,14 +1,3136 @@
+
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+"status": 200,
+"data": [
+{
+"id": 55,
+"name": "Mojito",
+"image": "2022-11-23-637e2d95f0b3c.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 98,
+"name": "Blueberry Mojito",
+"description": null,
+"image": "2022-11-24-637f1f361ad12.png",
+"category_id": 55,
+"category_ids": [
+{
+"id": "55",
+"position": 1
 }
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T09:37:26.000000Z",
+"updated_at": "2022-11-24T09:37:26.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f1f361a37b.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/D3Jv6xeSDJAaVdvp8",
+"media": [
+{
+"id": 817,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 98,
+"thumbnail": "2022-12-14-639917f6eba66.png",
+"main_image": "2022-11-24-637f1f361ad12.png"
+},
+{
+"id": 1517,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 98,
+"thumbnail": [
+"2022-12-14-63991b62e355e.png"
+],
+"main_image": [
+"2022-11-24-637f1f361ad12.png"
+]
+}
+]
+},
+{
+"id": 99,
+"name": "Mix Berry Mojito",
+"description": null,
+"image": "2022-11-24-637f22a7aa2df.png",
+"category_id": 55,
+"category_ids": [
+{
+"id": "55",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T09:52:07.000000Z",
+"updated_at": "2022-11-24T09:52:08.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f22a7a94a9.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/tb4nLrgCz43ZhkoTA",
+"media": [
+{
+"id": 818,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 99,
+"thumbnail": "2022-12-14-639917f79002c.png",
+"main_image": "2022-11-24-637f22a7aa2df.png"
+},
+{
+"id": 1518,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 99,
+"thumbnail": [
+"2022-12-14-63991b639bcc7.png"
+],
+"main_image": [
+"2022-11-24-637f22a7aa2df.png"
+]
+}
+]
+},
+{
+"id": 100,
+"name": "Strawberry Mojito",
+"description": null,
+"image": "2022-11-24-637f23174689d.png",
+"category_id": 55,
+"category_ids": [
+{
+"id": "55",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T09:53:59.000000Z",
+"updated_at": "2022-11-24T09:53:59.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f2317460af.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/oo7BVZcL1jDJEPpa9",
+"media": [
+{
+"id": 819,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 100,
+"thumbnail": "2022-12-14-639917f861148.png",
+"main_image": "2022-11-24-637f23174689d.png"
+},
+{
+"id": 1519,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 100,
+"thumbnail": [
+"2022-12-14-63991b648e656.png"
+],
+"main_image": [
+"2022-11-24-637f23174689d.png"
+]
+}
+]
+},
+{
+"id": 101,
+"name": "Passion Fruit Mojito",
+"description": null,
+"image": "2022-11-24-637f34e12e5b8.png",
+"category_id": 55,
+"category_ids": [
+{
+"id": "55",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T11:09:53.000000Z",
+"updated_at": "2022-11-24T11:09:53.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f34e12db90.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/krtto5MrCJgd3PT3A",
+"media": [
+{
+"id": 820,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 101,
+"thumbnail": "2022-12-14-639917f8f1f1f.png",
+"main_image": "2022-11-24-637f34e12e5b8.png"
+},
+{
+"id": 1520,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 101,
+"thumbnail": [
+"2022-12-14-63991b653cb2a.png"
+],
+"main_image": [
+"2022-11-24-637f34e12e5b8.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 98,
+"name": "Desserts",
+"image": "2022-11-23-637e59fbdd5fe.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 102,
+"name": "Saffron Cake",
+"description": null,
+"image": "2022-11-24-637f37c28472f.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T11:22:10.000000Z",
+"updated_at": "2022-11-24T11:22:10.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f37c283ab2.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/r1XJB2UqP9Lq5nsc6",
+"media": [
+{
+"id": 821,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 102,
+"thumbnail": "2022-12-14-639917fa0d10c.png",
+"main_image": "2022-11-24-637f37c28472f.png"
+},
+{
+"id": 1521,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 102,
+"thumbnail": [
+"2022-12-14-63991b6638e89.png"
+],
+"main_image": [
+"2022-11-24-637f37c28472f.png"
+]
+}
+]
+},
+{
+"id": 103,
+"name": "Pistachio Cake",
+"description": "Cake stuffed with pistachio butter",
+"image": "2022-11-24-637f39061413b.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.9,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T11:27:34.000000Z",
+"updated_at": "2022-11-24T11:27:34.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f390613d2c.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/CPWdWjEmerkrRpfa7",
+"media": [
+{
+"id": 822,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 103,
+"thumbnail": "2022-12-14-639917fa83668.png",
+"main_image": "2022-11-24-637f39061413b.png"
+},
+{
+"id": 1522,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 103,
+"thumbnail": [
+"2022-12-14-63991b66ae350.png"
+],
+"main_image": [
+"2022-11-24-637f39061413b.png"
+]
+}
+]
+},
+{
+"id": 104,
+"name": "Golden Brawn",
+"description": null,
+"image": "2022-11-24-637f3e5cd9794.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T11:50:20.000000Z",
+"updated_at": "2022-11-24T11:50:21.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f3e5cd91db.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/8KkD614vqQAuSV1m9",
+"media": [
+{
+"id": 823,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 104,
+"thumbnail": "2022-12-14-639917fa8eea6.png",
+"main_image": "2022-11-24-637f3e5cd9794.png"
+},
+{
+"id": 1523,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 104,
+"thumbnail": [
+"2022-12-14-63991b66bb2c7.png"
+],
+"main_image": [
+"2022-11-24-637f3e5cd9794.png"
+]
+}
+]
+},
+{
+"id": 105,
+"name": "Mini Pancake Cho",
+"description": null,
+"image": "2022-11-24-637f3fb4ecdfa.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.8,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T11:56:04.000000Z",
+"updated_at": "2022-11-24T11:56:05.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f3fb4ec6bf.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/qva8qmwVHSmfT1Nr7",
+"media": [
+{
+"id": 824,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 105,
+"thumbnail": "2022-12-14-639917fa9bdd9.png",
+"main_image": "2022-11-24-637f3fb4ecdfa.png"
+},
+{
+"id": 1524,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 105,
+"thumbnail": [
+"2022-12-14-63991b66c7825.png"
+],
+"main_image": [
+"2022-11-24-637f3fb4ecdfa.png"
+]
+}
+]
+},
+{
+"id": 106,
+"name": "Pistachio Pancake",
+"description": null,
+"image": "2022-11-24-637f427ae56f6.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 2.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T12:07:54.000000Z",
+"updated_at": "2022-11-24T12:07:55.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f427ae5336.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/Cf6hXRvQDVa69XAp7",
+"media": [
+{
+"id": 825,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 106,
+"thumbnail": "2022-12-14-639917fab8a74.png",
+"main_image": "2022-11-24-637f427ae56f6.png"
+},
+{
+"id": 1525,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 106,
+"thumbnail": [
+"2022-12-14-63991b66e5113.png"
+],
+"main_image": [
+"2022-11-24-637f427ae56f6.png"
+]
+}
+]
+},
+{
+"id": 107,
+"name": "Terlish Turkish Cake",
+"description": null,
+"image": "2022-11-24-637f481803feb.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.5,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T12:31:52.000000Z",
+"updated_at": "2022-11-24T12:31:52.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f481803872.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/gwebxZfCLqpt8Lm2A",
+"media": [
+{
+"id": 826,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 107,
+"thumbnail": "2022-12-14-639917fac397b.png",
+"main_image": "2022-11-24-637f481803feb.png"
+},
+{
+"id": 1526,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 107,
+"thumbnail": [
+"2022-12-14-63991b66f1b7c.png"
+],
+"main_image": [
+"2022-11-24-637f481803feb.png"
+]
+}
+]
+},
+{
+"id": 108,
+"name": "Dates Cake",
+"description": null,
+"image": "2022-11-24-637f4952a4a8b.png",
+"category_id": 98,
+"category_ids": [
+{
+"id": "98",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 0.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T12:37:06.000000Z",
+"updated_at": "2022-11-24T12:37:07.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f4952a3f99.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/7z5cRiM8KEm4Q1PM8",
+"media": [
+{
+"id": 827,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 108,
+"thumbnail": "2022-12-14-639917fb4d964.png",
+"main_image": "2022-11-24-637f4952a4a8b.png"
+},
+{
+"id": 1527,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 108,
+"thumbnail": [
+"2022-12-14-63991b677a903.png"
+],
+"main_image": [
+"2022-11-24-637f4952a4a8b.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 75,
+"name": "Cold Coffee",
+"image": "2022-11-23-637e3361547c5.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 109,
+"name": "Cold Mocha",
+"description": null,
+"image": "2022-11-24-637f49d28ed91.png",
+"category_id": 75,
+"category_ids": [
+{
+"id": "75",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+{
+"id": 19,
+"name": "Vanilla",
+"price": 0.2,
+"created_at": "2022-11-24T13:02:57.000000Z",
+"updated_at": "2022-11-24T13:02:57.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 20,
+"name": "Extra Caramel",
+"price": 0.2,
+"created_at": "2022-11-24T13:13:39.000000Z",
+"updated_at": "2022-11-24T13:13:39.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 21,
+"name": "Shot Esspresso",
+"price": 0.2,
+"created_at": "2022-11-24T13:14:35.000000Z",
+"updated_at": "2022-11-24T13:14:35.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 23,
+"name": "Extra Hazelnut",
+"price": 0.2,
+"created_at": "2022-11-24T13:15:29.000000Z",
+"updated_at": "2022-11-24T13:15:29.000000Z",
+"store_id": 127,
+"status": 1
+}
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T12:39:14.000000Z",
+"updated_at": "2022-11-24T13:16:10.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f49d28e998.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/eWuB5nUyyBzAooZw5",
+"media": [
+{
+"id": 828,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 109,
+"thumbnail": "2022-12-14-639917fbc083f.png",
+"main_image": "2022-11-24-637f49d28ed91.png"
+},
+{
+"id": 1528,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 109,
+"thumbnail": [
+"2022-12-14-63991b67eecca.png"
+],
+"main_image": [
+"2022-11-24-637f49d28ed91.png"
+]
+}
+]
+},
+{
+"id": 111,
+"name": "Frappuccino",
+"description": null,
+"image": "2022-11-24-637fb02660fdd.png",
+"category_id": 75,
+"category_ids": [
+{
+"id": "75",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+{
+"id": 16,
+"name": "Espresso Shot",
+"price": 0.2,
+"created_at": "2022-11-24T13:00:02.000000Z",
+"updated_at": "2022-11-24T13:00:02.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 20,
+"name": "Extra Caramel",
+"price": 0.2,
+"created_at": "2022-11-24T13:13:39.000000Z",
+"updated_at": "2022-11-24T13:13:39.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 22,
+"name": "Extra Caramel",
+"price": 0.2,
+"created_at": "2022-11-24T13:15:07.000000Z",
+"updated_at": "2022-11-24T13:15:07.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 23,
+"name": "Extra Hazelnut",
+"price": 0.2,
+"created_at": "2022-11-24T13:15:29.000000Z",
+"updated_at": "2022-11-24T13:15:29.000000Z",
+"store_id": 127,
+"status": 1
+}
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T19:55:50.000000Z",
+"updated_at": "2022-11-24T19:55:50.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb02660c09.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/cXQWpQVgKezR2Kez6",
+"media": [
+{
+"id": 830,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 111,
+"thumbnail": "2022-12-14-639917fc41214.png",
+"main_image": "2022-11-24-637fb02660fdd.png"
+},
+{
+"id": 1530,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 111,
+"thumbnail": [
+"2022-12-14-63991b68799d9.png"
+],
+"main_image": [
+"2022-11-24-637fb02660fdd.png"
+]
+}
+]
+},
+{
+"id": 112,
+"name": "Cold Americano",
+"description": null,
+"image": "2022-11-24-637fb0cb507cc.png",
+"category_id": 75,
+"category_ids": [
+{
+"id": "75",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T19:58:35.000000Z",
+"updated_at": "2022-11-24T19:58:35.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb0cb4fd6e.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/kDWoZYnBMjqGyA3KA",
+"media": [
+{
+"id": 831,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 112,
+"thumbnail": "2022-12-14-639917fc4b6a0.png",
+"main_image": "2022-11-24-637fb0cb507cc.png"
+},
+{
+"id": 1531,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 112,
+"thumbnail": [
+"2022-12-14-63991b6886609.png"
+],
+"main_image": [
+"2022-11-24-637fb0cb507cc.png"
+]
+}
+]
+},
+{
+"id": 113,
+"name": "Cold White Mocha",
+"description": null,
+"image": "2022-11-24-637fb189764df.png",
+"category_id": 75,
+"category_ids": [
+{
+"id": "75",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+{
+"id": 17,
+"name": "Caramel Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:00:50.000000Z",
+"updated_at": "2022-11-24T13:00:50.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 18,
+"name": "Hazelnut Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:01:58.000000Z",
+"updated_at": "2022-11-24T13:01:58.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 19,
+"name": "Vanilla",
+"price": 0.2,
+"created_at": "2022-11-24T13:02:57.000000Z",
+"updated_at": "2022-11-24T13:02:57.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 21,
+"name": "Shot Esspresso",
+"price": 0.2,
+"created_at": "2022-11-24T13:14:35.000000Z",
+"updated_at": "2022-11-24T13:14:35.000000Z",
+"store_id": 127,
+"status": 1
+}
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:01:45.000000Z",
+"updated_at": "2022-11-24T20:01:45.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb18975fb2.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/DXgqug3c8aR9Uyo8A",
+"media": [
+{
+"id": 832,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 113,
+"thumbnail": "2022-12-14-639917fcb3a39.png",
+"main_image": "2022-11-24-637fb189764df.png"
+},
+{
+"id": 1532,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 113,
+"thumbnail": [
+"2022-12-14-63991b68f26a8.png"
+],
+"main_image": [
+"2022-11-24-637fb189764df.png"
+]
+}
+]
+},
+{
+"id": 114,
+"name": "Sky Spanish Latte",
+"description": null,
+"image": "2022-11-24-637fb2ab52c88.png",
+"category_id": 75,
+"category_ids": [
+{
+"id": "75",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:06:35.000000Z",
+"updated_at": "2022-11-24T20:06:35.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb2ab525a6.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/jjBZatQjaQhisQSb8",
+"media": [
+{
+"id": 833,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 114,
+"thumbnail": "2022-12-14-639917fcbdc34.png",
+"main_image": "2022-11-24-637fb2ab52c88.png"
+},
+{
+"id": 1533,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 114,
+"thumbnail": [
+"2022-12-14-63991b6909eba.png"
+],
+"main_image": [
+"2022-11-24-637fb2ab52c88.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 164,
+"name": "Juices",
+"image": "def.png",
+"parent_id": 135,
+"position": 1,
+"status": 1,
+"priority": 0,
+"module_id": 3,
+"items": [
+{
+"id": 110,
+"name": "Al Marai Premium Apple Juice No Sugar Added 200 ml",
+"description": null,
+"image": "2022-11-24-637f4e357ad16.png",
+"category_id": 164,
+"category_ids": [
+{
+"id": "135",
+"position": 1
+},
+{
+"id": "164",
+"position": 2
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 0.15,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T12:57:57.000000Z",
+"updated_at": "2022-12-11T00:41:37.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637f4e357a397.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/F2nNHWkxCnw23RtY8",
+"media": [
+{
+"id": 829,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 110,
+"thumbnail": "2022-12-14-639917fbcaca6.png",
+"main_image": "2022-11-24-637f4e357ad16.png"
+},
+{
+"id": 1529,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 110,
+"thumbnail": [
+"2022-12-14-63991b68072c2.png"
+],
+"main_image": [
+"2022-11-24-637f4e357ad16.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 57,
+"name": "Beverages",
+"image": "2022-11-23-637deee8d5ba0.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 115,
+"name": "Caramel",
+"description": null,
+"image": "2022-11-24-637fb4e236338.png",
+"category_id": 57,
+"category_ids": [
+{
+"id": "57",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:16:02.000000Z",
+"updated_at": "2022-11-24T20:16:02.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb4e235a7a.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/PrHfxgh7mr8SvtMMA",
+"media": [
+{
+"id": 834,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 115,
+"thumbnail": "2022-12-14-639917fcc93c8.png",
+"main_image": "2022-11-24-637fb4e236338.png"
+},
+{
+"id": 1534,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 115,
+"thumbnail": [
+"2022-12-14-63991b6914f33.png"
+],
+"main_image": [
+"2022-11-24-637fb4e236338.png"
+]
+}
+]
+},
+{
+"id": 117,
+"name": "Passion Fruit Juice",
+"description": null,
+"image": "2022-11-24-637fb7b94ede8.png",
+"category_id": 57,
+"category_ids": [
+{
+"id": "57",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:28:09.000000Z",
+"updated_at": "2022-11-24T20:28:09.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb7b94e3fd.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/qYPvn5gPGw358kqM9",
+"media": [
+{
+"id": 836,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 117,
+"thumbnail": "2022-12-14-639917fdaf695.png",
+"main_image": "2022-11-24-637fb7b94ede8.png"
+},
+{
+"id": 1536,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 117,
+"thumbnail": [
+"2022-12-14-63991b69ef450.png"
+],
+"main_image": [
+"2022-11-24-637fb7b94ede8.png"
+]
+}
+]
+},
+{
+"id": 118,
+"name": "Blueberry Juice",
+"description": null,
+"image": "2022-11-24-637fb801973a1.png",
+"category_id": 57,
+"category_ids": [
+{
+"id": "57",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:29:22.000000Z",
+"updated_at": "2022-11-24T20:29:22.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb80196a43.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/4MXSGaQZycjKTTk57",
+"media": [
+{
+"id": 837,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 118,
+"thumbnail": "2022-12-14-639917fe2ccfa.png",
+"main_image": "2022-11-24-637fb801973a1.png"
+},
+{
+"id": 1537,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 118,
+"thumbnail": [
+"2022-12-14-63991b6a6e9c0.png"
+],
+"main_image": [
+"2022-11-24-637fb801973a1.png"
+]
+}
+]
+},
+{
+"id": 122,
+"name": "Oreo",
+"description": null,
+"image": "2022-11-25-637fcf1c2b9c2.png",
+"category_id": 57,
+"category_ids": [
+{
+"id": "57",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:07:56.000000Z",
+"updated_at": "2022-11-24T22:07:56.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fcf1c2b358.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/GRjSApCLSroBayRS6",
+"media": [
+{
+"id": 841,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 122,
+"thumbnail": "2022-12-14-639917ffe945f.png",
+"main_image": "2022-11-25-637fcf1c2b9c2.png"
+},
+{
+"id": 1541,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 122,
+"thumbnail": [
+"2022-12-14-63991b6c2d8c0.png"
+],
+"main_image": [
+"2022-11-25-637fcf1c2b9c2.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 54,
+"name": "Beverages",
+"image": "2022-11-23-637df33d8459a.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 116,
+"name": "Cold Chocolate",
+"description": null,
+"image": "2022-11-24-637fb57052f05.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:18:24.000000Z",
+"updated_at": "2022-11-24T20:18:24.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb5705238d.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/GvNVGEnpuVWdKdh7A",
+"media": [
+{
+"id": 835,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 116,
+"thumbnail": "2022-12-14-639917fd3bef8.png",
+"main_image": "2022-11-24-637fb57052f05.png"
+},
+{
+"id": 1535,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 116,
+"thumbnail": [
+"2022-12-14-63991b697d24e.png"
+],
+"main_image": [
+"2022-11-24-637fb57052f05.png"
+]
+}
+]
+},
+{
+"id": 119,
+"name": "Strawberry Juice",
+"description": null,
+"image": "2022-11-24-637fb862ce19a.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:30:59.000000Z",
+"updated_at": "2022-11-24T20:30:59.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb862cd43f.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/zvbzvV2sW8JkNmvG7",
+"media": [
+{
+"id": 838,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 119,
+"thumbnail": "2022-12-14-639917fe9702b.png",
+"main_image": "2022-11-24-637fb862ce19a.png"
+},
+{
+"id": 1538,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 119,
+"thumbnail": [
+"2022-12-14-63991b6ad85de.png"
+],
+"main_image": [
+"2022-11-24-637fb862ce19a.png"
+]
+}
+]
+},
+{
+"id": 120,
+"name": "Mango Juice",
+"description": null,
+"image": "2022-11-24-637fb8ae6bee0.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:32:14.000000Z",
+"updated_at": "2022-11-24T20:32:14.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb8ae6b3be.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/ZJr6dcmEbvARztx38",
+"media": [
+{
+"id": 839,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 120,
+"thumbnail": "2022-12-14-639917ff0d595.png",
+"main_image": "2022-11-24-637fb8ae6bee0.png"
+},
+{
+"id": 1539,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 120,
+"thumbnail": [
+"2022-12-14-63991b6b515fc.png"
+],
+"main_image": [
+"2022-11-24-637fb8ae6bee0.png"
+]
+}
+]
+},
+{
+"id": 121,
+"name": "Hazelnut",
+"description": null,
+"image": "2022-11-24-637fb912e1cdc.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T20:33:55.000000Z",
+"updated_at": "2022-11-24T20:33:55.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-24-637fb912e1491.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/bHCg6TR77SzSW4wx7",
+"media": [
+{
+"id": 840,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 121,
+"thumbnail": "2022-12-14-639917ff7f653.png",
+"main_image": "2022-11-24-637fb912e1cdc.png"
+},
+{
+"id": 1540,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 121,
+"thumbnail": [
+"2022-12-14-63991b6bbb525.png"
+],
+"main_image": [
+"2022-11-24-637fb912e1cdc.png"
+]
+}
+]
+},
+{
+"id": 123,
+"name": "Snickers",
+"description": null,
+"image": "2022-11-25-637fcf7206c91.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:09:22.000000Z",
+"updated_at": "2022-11-24T22:09:22.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fcf7205fce.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/wdaEh5z5AceCcYKq5",
+"media": [
+{
+"id": 842,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 123,
+"thumbnail": "2022-12-14-6399180000062.png",
+"main_image": "2022-11-25-637fcf7206c91.png"
+},
+{
+"id": 1542,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 123,
+"thumbnail": [
+"2022-12-14-63991b6c37d0e.png"
+],
+"main_image": [
+"2022-11-25-637fcf7206c91.png"
+]
+}
+]
+},
+{
+"id": 124,
+"name": "Twix",
+"description": null,
+"image": "2022-11-25-637fd41cda194.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:29:17.000000Z",
+"updated_at": "2022-11-24T22:29:17.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd41cd9614.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/1pejr8YpGcHDmat49",
+"media": [
+{
+"id": 843,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 124,
+"thumbnail": "2022-12-14-63991800707eb.png",
+"main_image": "2022-11-25-637fd41cda194.png"
+},
+{
+"id": 1543,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 124,
+"thumbnail": [
+"2022-12-14-63991b6ca7733.png"
+],
+"main_image": [
+"2022-11-25-637fd41cda194.png"
+]
+}
+]
+},
+{
+"id": 125,
+"name": "Bounty",
+"description": null,
+"image": "2022-11-25-637fd7d0a2d01.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:45:05.000000Z",
+"updated_at": "2022-11-24T22:45:05.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd7d0a2148.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/URKsnxwRLxEczB6Y8",
+"media": [
+{
+"id": 844,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 125,
+"thumbnail": "2022-12-14-63991800ddc6c.png",
+"main_image": "2022-11-25-637fd7d0a2d01.png"
+},
+{
+"id": 1544,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 125,
+"thumbnail": [
+"2022-12-14-63991b6d26933.png"
+],
+"main_image": [
+"2022-11-25-637fd7d0a2d01.png"
+]
+}
+]
+},
+{
+"id": 126,
+"name": "Galaxy",
+"description": null,
+"image": "2022-11-25-637fd8289ff6b.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:46:33.000000Z",
+"updated_at": "2022-11-24T22:46:33.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd8289f37d.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/PNzvTY7BTvN3mPzcA",
+"media": [
+{
+"id": 845,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 126,
+"thumbnail": "2022-12-14-6399180154006.png",
+"main_image": "2022-11-25-637fd8289ff6b.png"
+},
+{
+"id": 1545,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 126,
+"thumbnail": [
+"2022-12-14-63991b6d915c9.png"
+],
+"main_image": [
+"2022-11-25-637fd8289ff6b.png"
+]
+}
+]
+},
+{
+"id": 127,
+"name": "Cold Kids Drink",
+"description": null,
+"image": "2022-11-25-637fd888bc680.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.7,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:48:09.000000Z",
+"updated_at": "2022-11-24T22:48:09.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd888bb9ff.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/UMNZdbktoR2xgmpy9",
+"media": [
+{
+"id": 846,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 127,
+"thumbnail": "2022-12-14-63991801c3005.png",
+"main_image": "2022-11-25-637fd888bc680.png"
+},
+{
+"id": 1546,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 127,
+"thumbnail": [
+"2022-12-14-63991b6e0ceb0.png"
+],
+"main_image": [
+"2022-11-25-637fd888bc680.png"
+]
+}
+]
+},
+{
+"id": 128,
+"name": "Pistachio Drink",
+"description": null,
+"image": "2022-11-25-637fd8e60f490.png",
+"category_id": 54,
+"category_ids": [
+{
+"id": "54",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:49:42.000000Z",
+"updated_at": "2022-11-24T22:50:01.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd8e60ec4b.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/MFeHSzYDrje2iKZh8",
+"media": [
+{
+"id": 847,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 128,
+"thumbnail": "2022-12-14-639918023df7c.png",
+"main_image": "2022-11-25-637fd8e60f490.png"
+},
+{
+"id": 1547,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 128,
+"thumbnail": [
+"2022-12-14-63991b6e80377.png"
+],
+"main_image": [
+"2022-11-25-637fd8e60f490.png"
+]
+}
+]
+}
+]
+},
+{
+"id": 76,
+"name": "Hot Coffee",
+"image": "2022-11-23-637e339d82acd.png",
+"parent_id": 0,
+"position": 0,
+"status": 1,
+"priority": 0,
+"module_id": 1,
+"items": [
+{
+"id": 129,
+"name": "Espresso",
+"description": null,
+"image": "2022-11-25-637fd93bbcd03.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 0.9,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:51:08.000000Z",
+"updated_at": "2022-11-24T22:51:08.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd93bbc21e.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/1wS9eiiiT1sN8V7J7",
+"media": [
+{
+"id": 848,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 129,
+"thumbnail": "2022-12-14-63991802a1124.png",
+"main_image": "2022-11-25-637fd93bbcd03.png"
+},
+{
+"id": 1548,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 129,
+"thumbnail": [
+"2022-12-14-63991b6ee7055.png"
+],
+"main_image": [
+"2022-11-25-637fd93bbcd03.png"
+]
+}
+]
+},
+{
+"id": 130,
+"name": "Hot Americano",
+"description": null,
+"image": "2022-11-25-637fd9d1aeabd.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:53:38.000000Z",
+"updated_at": "2022-11-24T22:53:38.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fd9d1adf97.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/84c8ZSHMQXT9NbNt5",
+"media": [
+{
+"id": 849,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 130,
+"thumbnail": "2022-12-14-6399180315aa7.png",
+"main_image": "2022-11-25-637fd9d1aeabd.png"
+},
+{
+"id": 1549,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 130,
+"thumbnail": [
+"2022-12-14-63991b6f5c655.png"
+],
+"main_image": [
+"2022-11-25-637fd9d1aeabd.png"
+]
+}
+]
+},
+{
+"id": 131,
+"name": "Hot Mocha",
+"description": null,
+"image": "2022-11-25-637fda39da2f1.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.4,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:55:22.000000Z",
+"updated_at": "2022-11-24T22:55:22.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fda39d97d3.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/9Via2d2PYi4hJSeE8",
+"media": [
+{
+"id": 850,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 131,
+"thumbnail": "2022-12-14-639918038046f.png",
+"main_image": "2022-11-25-637fda39da2f1.png"
+},
+{
+"id": 1550,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 131,
+"thumbnail": [
+"2022-12-14-63991b6fcaa8b.png"
+],
+"main_image": [
+"2022-11-25-637fda39da2f1.png"
+]
+}
+]
+},
+{
+"id": 132,
+"name": "Hot Latte",
+"description": null,
+"image": "2022-11-25-637fdab2351fb.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+{
+"id": 17,
+"name": "Caramel Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:00:50.000000Z",
+"updated_at": "2022-11-24T13:00:50.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 18,
+"name": "Hazelnut Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:01:58.000000Z",
+"updated_at": "2022-11-24T13:01:58.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 19,
+"name": "Vanilla",
+"price": 0.2,
+"created_at": "2022-11-24T13:02:57.000000Z",
+"updated_at": "2022-11-24T13:02:57.000000Z",
+"store_id": 127,
+"status": 1
+}
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:57:22.000000Z",
+"updated_at": "2022-11-24T22:57:22.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdab2346f7.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/Rzig6o8QN8esmviAA",
+"media": [
+{
+"id": 851,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 132,
+"thumbnail": "2022-12-14-63991803ed28d.png",
+"main_image": "2022-11-25-637fdab2351fb.png"
+},
+{
+"id": 1551,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 132,
+"thumbnail": [
+"2022-12-14-63991b70413cf.png"
+],
+"main_image": [
+"2022-11-25-637fdab2351fb.png"
+]
+}
+]
+},
+{
+"id": 133,
+"name": "Cappuccino",
+"description": null,
+"image": "2022-11-25-637fdb1e4e884.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T22:59:10.000000Z",
+"updated_at": "2022-11-24T22:59:10.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdb1e4dce1.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/G7YboHB9AeJmRBhVA",
+"media": [
+{
+"id": 852,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 133,
+"thumbnail": "2022-12-14-639918046e7f8.png",
+"main_image": "2022-11-25-637fdb1e4e884.png"
+},
+{
+"id": 1552,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 133,
+"thumbnail": [
+"2022-12-14-63991b70acd22.png"
+],
+"main_image": [
+"2022-11-25-637fdb1e4e884.png"
+]
+}
+]
+},
+{
+"id": 134,
+"name": "Espresso Macchiato",
+"description": null,
+"image": "2022-11-25-637fdb9e16cb5.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T23:01:18.000000Z",
+"updated_at": "2022-11-24T23:01:18.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdb9e161e9.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/Yvj1CxUoxJSXkwJQ7",
+"media": [
+{
+"id": 853,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 134,
+"thumbnail": "2022-12-14-63991804e8126.png",
+"main_image": "2022-11-25-637fdb9e16cb5.png"
+},
+{
+"id": 1553,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 134,
+"thumbnail": [
+"2022-12-14-63991b712d4b2.png"
+],
+"main_image": [
+"2022-11-25-637fdb9e16cb5.png"
+]
+}
+]
+},
+{
+"id": 135,
+"name": "Hot Spanish Latte",
+"description": null,
+"image": "2022-11-25-637fdbf99eeb8.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+{
+"id": 17,
+"name": "Caramel Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:00:50.000000Z",
+"updated_at": "2022-11-24T13:00:50.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 18,
+"name": "Hazelnut Syrup",
+"price": 0.2,
+"created_at": "2022-11-24T13:01:58.000000Z",
+"updated_at": "2022-11-24T13:01:58.000000Z",
+"store_id": 127,
+"status": 1
+},
+{
+"id": 19,
+"name": "Vanilla",
+"price": 0.2,
+"created_at": "2022-11-24T13:02:57.000000Z",
+"updated_at": "2022-11-24T13:02:57.000000Z",
+"store_id": 127,
+"status": 1
+}
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.4,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T23:02:50.000000Z",
+"updated_at": "2022-11-24T23:02:50.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdbf99e2c1.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/T2BZvhVqeof5XDtP7",
+"media": [
+{
+"id": 854,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 135,
+"thumbnail": "2022-12-14-639918055e9f8.png",
+"main_image": "2022-11-25-637fdbf99eeb8.png"
+},
+{
+"id": 1554,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 135,
+"thumbnail": [
+"2022-12-14-63991b719be21.png"
+],
+"main_image": [
+"2022-11-25-637fdbf99eeb8.png"
+]
+}
+]
+},
+{
+"id": 136,
+"name": "Hot Chocolate",
+"description": null,
+"image": "2022-11-25-637fdcc159bb3.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.2,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T23:06:09.000000Z",
+"updated_at": "2022-11-24T23:06:09.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdcc1590ec.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/zRR3PqUmZ2PUotoh6",
+"media": [
+{
+"id": 855,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 136,
+"thumbnail": "2022-12-14-63991805c8b91.png",
+"main_image": "2022-11-25-637fdcc159bb3.png"
+},
+{
+"id": 1555,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 136,
+"thumbnail": [
+"2022-12-14-63991b72169d7.png"
+],
+"main_image": [
+"2022-11-25-637fdcc159bb3.png"
+]
+}
+]
+},
+{
+"id": 137,
+"name": "Dark Chocolate",
+"description": null,
+"image": "2022-11-25-637fdcfeb6295.png",
+"category_id": 76,
+"category_ids": [
+{
+"id": "76",
+"position": 1
+}
+],
+"variations": [
+],
+"variations_ar": [
+],
+"add_ons": [
+],
+"attributes": [
+],
+"choice_options": [
+],
+"price": 1.4,
+"tax": 0,
+"tax_type": "percent",
+"discount": 0,
+"discount_type": "percent",
+"available_time_starts": "00:00:00",
+"available_time_ends": "23:59:59",
+"veg": 0,
+"status": 1,
+"store_id": 127,
+"created_at": "2022-11-24T23:07:11.000000Z",
+"updated_at": "2022-11-24T23:07:11.000000Z",
+"order_count": 0,
+"avg_rating": 0,
+"rating_count": 0,
+"rating": null,
+"module_id": 1,
+"stock": 0,
+"unit_id": null,
+"images": [
+"2022-11-25-637fdcfeb57c1.png"
+],
+"unit_type": null,
+"translations": [
+],
+"unit": null,
+"dynamic_link": "https://onelink.saidshops.com/jsg8b44s5vmxJoQx6",
+"media": [
+{
+"id": 856,
+"type": "image",
+"imageable_type": "App\Models\Item",
+"imageable_id": 137,
+"thumbnail": "2022-12-14-639918063fe0a.png",
+"main_image": "2022-11-25-637fdcfeb6295.png"
+},
+{
+"id": 1556,
+"type": "images",
+"imageable_type": "App\Models\Item",
+"imageable_id": 137,
+"thumbnail": [
+"2022-12-14-63991b728b069.png"
+],
+"main_image": [
+"2022-11-25-637fdcfeb6295.png"
+]
+}
+]
+}
+]
+}
+]
+} 
